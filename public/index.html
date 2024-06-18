@@ -9,14 +9,59 @@
     <title>Model</title>
   </head>
   <body id="ThreeJS">
-    <header class="header">
-      <div class="container"></div>
-    </header>
     <main class="main">
+      <section class="graphic">
+        <div class="graphic__wrapper">
+          <div class="graphic__left">
+            <div class="canvas">
+              <div class="canvas__window"></div>
+              <div class="canvas__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#projector"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="graphic__right">
+            <div class="graphic__tabs">
+              <div class="graphic__tab desc">
+                <div class="desc__title"><span>Предсказаниe пандемий</span>
+                  <svg>
+                    <use xlink:href="./images/sprite.svg#slide-10"></use>
+                  </svg>
+                </div>
+                <div class="desc__main">
+                  <div class="desc__item">
+                    <div class="desc__image">
+                      <svg>
+                        <use xlink:href="./images/sprite.svg#slide-10-1"></use>
+                      </svg>
+                    </div>
+                    <div class="desc__text">Просчет сценариев распространения вирусов</div>
+                  </div>
+                  <div class="desc__item">
+                    <div class="desc__image">
+                      <svg>
+                        <use xlink:href="./images/sprite.svg#slide-10-2"></use>
+                      </svg>
+                    </div>
+                    <div class="desc__text">Отслеживание эпидемиологической ситуации в мире</div>
+                  </div>
+                  <div class="desc__item">
+                    <div class="desc__image">
+                      <svg>
+                        <use xlink:href="./images/sprite.svg#slide-10-3"></use>
+                      </svg>
+                    </div>
+                    <div class="desc__text">Заблаговременное предупреждение населения</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-      <div class="container"></div>
-    </footer>
   </body>
   <script src="./js/three.module.min.js" type="module"></script>
   <script src="./js/OrbitControls.js" type="module"></script>

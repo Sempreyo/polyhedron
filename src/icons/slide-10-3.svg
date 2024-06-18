@@ -1,0 +1,69 @@
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.67 70.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #7cbb3b;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #29b579;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="_предсказание" data-name="предсказание">
+    <g>
+      <g>
+        <circle class="cls-2" cx="35.34" cy="35.34" r="22.17"/>
+        <g>
+          <line class="cls-3" x1="51.01" y1="19.66" x2="59.97" y2="10.7"/>
+          <line class="cls-3" x1="57.73" y1="8.46" x2="62.21" y2="12.94"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="35.34" y1="13.17" x2="35.34" y2=".5"/>
+          <line class="cls-3" x1="32.17" y1=".5" x2="38.5" y2=".5"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="19.66" y1="19.66" x2="10.7" y2="10.7"/>
+          <line class="cls-3" x1="8.46" y1="12.94" x2="12.94" y2="8.46"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="13.17" y1="35.34" x2=".5" y2="35.34"/>
+          <line class="cls-3" x1=".5" y1="38.5" x2=".5" y2="32.17"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="19.66" y1="51.01" x2="10.7" y2="59.97"/>
+          <line class="cls-3" x1="12.94" y1="62.21" x2="8.46" y2="57.73"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="35.34" y1="57.51" x2="35.34" y2="70.17"/>
+          <line class="cls-3" x1="38.5" y1="70.17" x2="32.17" y2="70.17"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="51.01" y1="51.01" x2="59.97" y2="59.97"/>
+          <line class="cls-3" x1="62.21" y1="57.73" x2="57.73" y2="62.21"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="57.51" y1="35.34" x2="70.17" y2="35.34"/>
+          <line class="cls-3" x1="70.17" y1="32.17" x2="70.17" y2="38.5"/>
+        </g>
+      </g>
+      <line class="cls-4" x1="35.34" y1="22.84" x2="35.34" y2="36.8"/>
+      <circle class="cls-1" cx="35.34" cy="44.26" r="2.32"/>
+    </g>
+  </g>
+</svg>

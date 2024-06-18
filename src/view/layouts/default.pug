@@ -14,15 +14,8 @@ html(lang='ru')
 		title= `${page.title}`
 
 	body(id='ThreeJS')
-		block header
-			include ../blocks/header
-
 		main.main
 			block main
-
-		block footer
-			include ../blocks/footer
-
 
 	script(src='./js/three.module.min.js', type='module')
 	script(src='./js/OrbitControls.js', type='module')
