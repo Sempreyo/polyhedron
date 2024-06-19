@@ -1,0 +1,60 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 68" width="144" height="68">
+	<title>медицина</title>
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,12.031,-12.031,0,93.807,15.496)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s2 { fill: url(#g1) } 
+	</style>
+	<g id="медицина">
+		<g id="-e-&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" fill="#f8104b" d="m89.4 41.4l-22 21.9c-3 3.1-7 4.6-11 4.6-4 0-8-1.5-11-4.6-6.1-6.1-6.1-16 0-22.1l21.9-21.9z"/>
+				<path id="&lt;Path&gt;" fill="#29b579" d="m103.5 5.2c-6.1-6.1-16-6.1-22.1 0l-14.1 14.1c-6.1 6.1-4.2 14.1 1.9 20.2 6.1 6 14.1 8 20.2 1.9l14.1-14.1c6.1-6.1 6.1-16 0-22.1z"/>
+				<path id="&lt;Path&gt;" class="s2" d="m93.8 27.5c-6.6 0-12-5.4-12-12 0-6.6 5.4-12 12-12 6.7 0 12 5.4 12 12 0 6.6-5.3 12-12 12z"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m59.6 44.1c-8.8-13.5-23-13.5-31.8 0 8.8 13.4 23 13.4 31.8 0z"/>
+					</g>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m37.5 52.9l0.3-6.6 2.7-4.5v-7.8"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m41.2 53.7l0.3-7.4 2.6-4.5v-7.8"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m44.9 53.7l0.3-7.4 2.6-4.5v-7.2"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m48.6 53.7l0.2-7.4 2.7-4.5v-5.9"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m91.3 44.1c-8.8-13.5-23-13.5-31.7 0 8.7 13.4 22.9 13.4 31.7 0z"/>
+					</g>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m69.3 52.9l0.3-6.6 2.6-4.5v-7.8"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m73 53.7l0.2-7.4 2.7-4.5v-7.8"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m76.6 53.7l0.3-7.4 2.7-4.5v-7.2"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m80.3 53.7l0.3-7.4 2.6-4.5v-5.9"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<g id="&lt;Group&gt;">
+							<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m123 44.1c-8.7-13.5-22.9-13.5-31.7 0 8.8 13.4 23 13.4 31.7 0z"/>
+						</g>
+						<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m101 52.9l0.3-6.6 2.6-4.5v-7.8"/>
+						<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m104.7 53.7l0.3-7.4 2.6-4.5v-7.8"/>
+						<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m108.4 53.7l0.2-7.4 2.7-4.5v-7.2"/>
+						<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m112 53.7l0.3-7.4 2.7-4.5v-5.9"/>
+					</g>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m6.6 60.1l8.5-4.7 5-6.9 7.6-4.3"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m5.9 59c1.1 1 1.1 2.8 0 3.8-1 1.1-2.8 1.1-3.9 0-1-1-1-2.8 0-3.8 1.1-1.1 2.9-1.1 3.9 0z"/>
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m139.1 22.7l-4.7 8.5-7 5.1-4.2 7.6"/>
+						<g id="&lt;Group&gt;">
+							<path id="&lt;Path&gt;" fill="none" stroke="#fdfeff" stroke-miterlimit="10" d="m137.9 22c1.1 1.1 2.8 1.1 3.9 0 1.1-1 1.1-2.8 0-3.9-1.1-1-2.8-1-3.9 0-1.1 1.1-1.1 2.9 0 3.9z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

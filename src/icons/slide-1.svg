@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 135" width="136" height="135">
+	<path d="m48.6 67.5h-28.9v19.3h38.5v48.1" fill="none" stroke="#ffffff" stroke-linejoin="round"/>
+	<path d="m67.8 48.3v-28.9h-19.2v38.5h-48.1" fill="none" stroke="#ffffff" stroke-linejoin="round"/>
+	<path d="m87.1 67.5h28.8v-19.2h-38.5v-48.1" fill="none" stroke="#ffffff" stroke-linejoin="round"/>
+	<path d="m67.8 86.8v28.8h19.3v-38.4h48.1" fill="none" stroke="#ffffff" stroke-linejoin="round"/>
+	<path fill-rule="evenodd" fill="#ffffff" d="m96.7 38.7h38.5v57.7h-38.5v38.5h-57.7v-38.5h-38.5v-57.7h38.5v-38.5h57.7zm-56.7-37.5v38.5h-38.5v55.7h38.5v38.5h55.7v-38.5h38.5v-55.7h-38.5v-38.5z"/>
+	<path fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m48.6 67.5h-28.9v19.3h38.5v48.1"/>
+	<path fill-rule="evenodd" fill="#ffffff" d="m57.8 67.5c0 2.6-2.1 4.6-4.6 4.6-2.5 0-4.6-2-4.6-4.6 0-2.5 2.1-4.6 4.6-4.6 2.5 0 4.6 2.1 4.6 4.6zm-8.2 0c0 2 1.6 3.6 3.6 3.6 2 0 3.6-1.6 3.6-3.6 0-2-1.6-3.6-3.6-3.6-2 0-3.6 1.6-3.6 3.6z"/>
+	<path fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m67.8 48.3v-28.9h-19.2v38.5h-48.1"/>
+	<path fill-rule="evenodd" fill="#ffffff" d="m72.4 52.9c0 2.5-2 4.6-4.6 4.6-2.5 0-4.6-2.1-4.6-4.6 0-2.6 2.1-4.6 4.6-4.6 2.6 0 4.6 2 4.6 4.6zm-8.2 0c0 2 1.6 3.6 3.6 3.6 2 0 3.6-1.6 3.6-3.6 0-2-1.6-3.6-3.6-3.6-2 0-3.6 1.6-3.6 3.6z"/>
+	<path fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m87.1 67.5h28.8v-19.2h-38.5v-48.1"/>
+	<path fill-rule="evenodd" fill="#ffffff" d="m87.1 67.5c0 2.6-2.1 4.6-4.6 4.6-2.6 0-4.6-2-4.6-4.6 0-2.5 2-4.6 4.6-4.6 2.5 0 4.6 2.1 4.6 4.6zm-8.2 0c0 2 1.6 3.6 3.6 3.6 2 0 3.6-1.6 3.6-3.6 0-2-1.6-3.6-3.6-3.6-2 0-3.6 1.6-3.6 3.6z"/>
+	<path fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m67.8 86.8v28.8h19.3v-38.4h48.1"/>
+	<path fill-rule="evenodd" fill="#ffffff" d="m72.4 82.2c0 2.5-2 4.6-4.6 4.6-2.5 0-4.6-2.1-4.6-4.6 0-2.6 2.1-4.6 4.6-4.6 2.6 0 4.6 2 4.6 4.6zm-8.2 0c0 2 1.6 3.6 3.6 3.6 2 0 3.6-1.6 3.6-3.6 0-2-1.6-3.6-3.6-3.6-2 0-3.6 1.6-3.6 3.6z"/>
+</svg>

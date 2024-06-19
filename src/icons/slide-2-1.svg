@@ -1,0 +1,69 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 66" width="113" height="66">
+	<title>криптография</title>
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(10.619,0,0,10.619,55.846,34.389)">
+			<stop offset=".522" stop-color="#fa6727" stop-opacity="1"/>
+			<stop offset="1" stop-color="#fa6727" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(10.619,0,0,10.619,55.846,34.389)">
+			<stop offset=".522" stop-color="#fa6727" stop-opacity="1"/>
+			<stop offset="1" stop-color="#4a93ff" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s4 { fill: url(#g1);stroke: url(#g2);stroke-miterlimit:10 } 
+	</style>
+	<g id="криптография">
+		<g id="-e-&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m36.6 26.3l-17-2.1-4.7-6.1-6.6-0.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m35.9 32l-18.5-2.3-3.5-4.4"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m35.3 37l-24.5-3.1"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m34.6 42.7l-19.3-2.4"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m33.6 47.1l-20-2.5-5.2 4-3.7-0.4"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m33 52.2l-16.6-2.1-4.2 3.2"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m8.3 17.3c-0.1 1-1 1.7-2 1.6-1-0.1-1.8-1.1-1.6-2.1 0.1-1 1-1.7 2-1.6 1 0.2 1.7 1.1 1.6 2.1z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m14.9 24.1c-0.1 1.1-1 1.8-2 1.6-1-0.1-1.7-1-1.6-2 0.1-1 1-1.7 2.1-1.6 1 0.1 1.7 1 1.5 2z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m11.1 33.9c-0.2 1-1.1 1.7-2.1 1.6-1-0.2-1.7-1.1-1.6-2.1 0.1-1 1.1-1.7 2.1-1.6 1 0.2 1.7 1.1 1.6 2.1z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m15.5 40.3c-0.1 1-1 1.7-2 1.6-1-0.1-1.8-1-1.6-2 0.1-1.1 1-1.8 2-1.6 1 0.1 1.7 1 1.6 2z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m4.9 48.2c-0.1 1-1.1 1.7-2.1 1.6-1-0.2-1.7-1.1-1.6-2.1 0.2-1 1.1-1.7 2.1-1.6 1 0.1 1.7 1.1 1.6 2.1z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m12.7 54.5c-0.2 1-1.1 1.8-2.1 1.6-1-0.1-1.7-1-1.6-2 0.1-1 1.1-1.7 2.1-1.6 1 0.1 1.7 1 1.6 2z"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m77 35.7l17.1 2.2 4.6 6 6.6 0.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m77.7 30l18.5 2.3 3.5 4.5"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m78.3 25.1l22.9 2.9"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m79 19.3l19.3 2.4"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m80 14.9l20 2.5 5.2-4 3.7 0.5"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m80.6 9.8l16.6 2.2 4.2-3.3"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m105.3 44.7c0.1-1 1-1.7 2.1-1.6 1 0.2 1.7 1.1 1.5 2.1-0.1 1-1 1.7-2 1.6-1-0.1-1.7-1.1-1.6-2.1z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m98.7 37.9c0.1-1 1-1.7 2-1.6 1 0.1 1.7 1 1.6 2-0.1 1-1 1.8-2 1.6-1-0.1-1.8-1-1.6-2z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m101.2 28c0.1-1 1.1-1.8 2.1-1.6 1 0.1 1.7 1 1.6 2-0.2 1-1.1 1.7-2.1 1.6-1-0.1-1.7-1-1.6-2z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m98.1 21.7c0.1-1 1-1.7 2.1-1.6 1 0.1 1.7 1.1 1.5 2.1-0.1 1-1 1.7-2 1.6-1-0.2-1.7-1.1-1.6-2.1z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m108.7 13.8c0.2-1 1.1-1.7 2.1-1.5 1 0.1 1.7 1 1.6 2-0.1 1-1.1 1.7-2.1 1.6-1-0.1-1.7-1-1.6-2.1z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m101 7.5c0.1-1 1-1.7 2-1.6 1 0.1 1.7 1 1.6 2-0.1 1.1-1 1.8-2 1.6-1.1-0.1-1.8-1-1.6-2z"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Path&gt;" fill="#403f4d" stroke="#2c92e5" stroke-miterlimit="10" d="m88.2 49.9l-15.1 15.1h-48.7v-48.6l15.1-15.2h48.7z"/>
+				</g>
+				<g id="&lt;Group&gt;">
+					<g id="&lt;Group&gt;">
+						<path id="&lt;Path&gt;" fill="none" stroke="#2c92e5" stroke-miterlimit="10" stroke-width="1.5" d="m88.2 49.9l-15.1 15.1h-48.7v-48.6l15.1-15.2h48.7z"/>
+					</g>
+					<path id="&lt;Path&gt;" fill="none" stroke="#2c92e5" stroke-miterlimit="10" stroke-width="1.5" d="m88.2 49.9h-48.6l-0.1-48.7h48.7z"/>
+					<path id="&lt;Path&gt;" fill="#403f4d" stroke="#5fba93" stroke-miterlimit="10" stroke-width="1.5" d=""/>
+					<path id="&lt;Path&gt;" fill="#403f4d" stroke="#5fba93" stroke-miterlimit="10" stroke-width="1.5" d=""/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#2c92e5" stroke-miterlimit="10" stroke-width="1.5" d="m88.2 1.2l-15.1 15.1"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#2c92e5" stroke-miterlimit="10" stroke-width="1.5" d="m88.2 49.9l-15.1 15.1"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#2c92e5" stroke-miterlimit="10" stroke-width="1.5" d="m39.6 49.9l-15.2 15.1"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#2c92e5" stroke-miterlimit="10" stroke-width="1.5" d="m73.1 65h-48.7v-48.6l48.7-0.1z"/>
+				</g>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s4" d="m65.7 38.2c-2.1 5.5-8.2 8.2-13.7 6.1-5.5-2.1-8.2-8.3-6.1-13.8 2.2-5.4 8.3-8.1 13.8-6 5.5 2.1 8.2 8.3 6 13.7z"/>
+				<path id="&lt;Path&gt;" fill="#fa6727" d="m60.4 36.1c-1 2.5-3.8 3.8-6.3 2.8-2.5-1-3.7-3.8-2.8-6.3 1-2.5 3.8-3.7 6.3-2.7 2.5 0.9 3.7 3.7 2.8 6.2z"/>
+			</g>
+		</g>
+	</g>
+</svg>
