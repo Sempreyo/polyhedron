@@ -2,58 +2,56 @@
 	<title>Финансы</title>
 	<style>
 		tspan { white-space:pre } 
-		.s0 { fill: none;stroke: #ffffff;stroke-miterlimit:10 } 
-		.s1 { fill: #403f4d;stroke: #ffffff;stroke-miterlimit:10 } 
 		.t2 { font-size: 47px;fill: #ffffff;font-family: "Source Sans Roman" } 
 	</style>
 	<g id="Финансы">
 		<g id="-e-&lt;Group&gt;">
 			<g id="&lt;Group&gt;">
 				<g id="&lt;Group&gt;">
-					<path id="&lt;Path&gt;" class="s0" d="m174.5 79.2h-166.7v-72.2h166.7z"/>
-					<path id="&lt;Path&gt;" class="s0" d="m181 84.7h-179.7v-83.3h179.7z"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m174.5 79.2h-166.7v-72.2h166.7z"/>
+					<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m181 84.7h-179.7v-83.3h179.7z"/>
 					<g id="&lt;Group&gt;">
 						<g id="&lt;Group&gt;">
-							<path id="&lt;Path&gt;" class="s0" d="m173.5 25.2l-15.7 6.5h-11.1"/>
-							<path id="&lt;Path&gt;" class="s1" d="m146.7 31.7c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"/>
+							<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m173.5 25.2l-15.7 6.5h-11.1"/>
+							<path id="&lt;Path&gt;" fill="#403f4d" stroke="#ffffff" stroke-miterlimit="10" d="m146.7 31.7c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"/>
 						</g>
 					</g>
 					<g id="&lt;Group&gt;">
 						<g id="&lt;Group&gt;">
-							<path id="&lt;Path&gt;" class="s0" d="m173.5 35.7l-15.7 6.5h-11.1"/>
-							<path id="&lt;Path&gt;" class="s1" d="m146.7 42.2c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"/>
+							<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m173.5 35.7l-15.7 6.5h-11.1"/>
+							<path id="&lt;Path&gt;" fill="#403f4d" stroke="#ffffff" stroke-miterlimit="10" d="m146.7 42.2c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"/>
 						</g>
 					</g>
 					<g id="&lt;Group&gt;">
 						<g id="&lt;Group&gt;">
-							<path id="&lt;Path&gt;" class="s0" d="m173.5 46.2l-15.7 6.5h-11.1"/>
-							<path id="&lt;Path&gt;" class="s1" d="m146.7 52.7c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"/>
+							<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m173.5 46.2l-15.7 6.5h-11.1"/>
+							<path id="&lt;Path&gt;" fill="#403f4d" stroke="#ffffff" stroke-miterlimit="10" d="m146.7 52.7c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9 0-1.6 1.3-2.9 2.9-2.9 1.6 0 2.9 1.3 2.9 2.9z"/>
 						</g>
 					</g>
 					<g id="&lt;Group&gt;">
 						<g id="&lt;Group&gt;">
-							<path id="&lt;Path&gt;" class="s0" d="m7.8 55.6l15.7-6.5h11.1"/>
-							<path id="&lt;Path&gt;" class="s1" d="m34.6 49.1c0-1.6 1.3-2.9 2.9-2.9 1.7 0 3 1.3 3 2.9 0 1.6-1.3 2.9-3 2.9-1.6 0-2.9-1.3-2.9-2.9z"/>
+							<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m7.8 55.6l15.7-6.5h11.1"/>
+							<path id="&lt;Path&gt;" fill="#403f4d" stroke="#ffffff" stroke-miterlimit="10" d="m34.6 49.1c0-1.6 1.3-2.9 2.9-2.9 1.7 0 3 1.3 3 2.9 0 1.6-1.3 2.9-3 2.9-1.6 0-2.9-1.3-2.9-2.9z"/>
 						</g>
 					</g>
 					<g id="&lt;Group&gt;">
 						<g id="&lt;Group&gt;">
-							<path id="&lt;Path&gt;" class="s0" d="m7.8 45.1l15.7-6.5h11.1"/>
-							<path id="&lt;Path&gt;" class="s1" d="m34.6 38.6c0-1.6 1.3-2.9 2.9-2.9 1.7 0 3 1.3 3 2.9 0 1.6-1.3 2.9-3 2.9-1.6 0-2.9-1.3-2.9-2.9z"/>
+							<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m7.8 45.1l15.7-6.5h11.1"/>
+							<path id="&lt;Path&gt;" fill="#403f4d" stroke="#ffffff" stroke-miterlimit="10" d="m34.6 38.6c0-1.6 1.3-2.9 2.9-2.9 1.7 0 3 1.3 3 2.9 0 1.6-1.3 2.9-3 2.9-1.6 0-2.9-1.3-2.9-2.9z"/>
 						</g>
 					</g>
 					<g id="&lt;Group&gt;">
 						<g id="&lt;Group&gt;">
-							<path id="&lt;Path&gt;" class="s0" d="m7.8 34.6l15.7-6.5h11.1"/>
-							<path id="&lt;Path&gt;" class="s1" d="m34.6 28.1c0-1.6 1.3-2.9 2.9-2.9 1.7 0 3 1.3 3 2.9 0 1.6-1.3 2.9-3 2.9-1.6 0-2.9-1.3-2.9-2.9z"/>
+							<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m7.8 34.6l15.7-6.5h11.1"/>
+							<path id="&lt;Path&gt;" fill="#403f4d" stroke="#ffffff" stroke-miterlimit="10" d="m34.6 28.1c0-1.6 1.3-2.9 2.9-2.9 1.7 0 3 1.3 3 2.9 0 1.6-1.3 2.9-3 2.9-1.6 0-2.9-1.3-2.9-2.9z"/>
 						</g>
 					</g>
 				</g>
-				<path id="&lt;Path&gt;" class="s0" d="m119.7 43.1c0 15.7-12.8 28.5-28.6 28.5-15.7 0-28.5-12.8-28.5-28.5 0-15.8 12.8-28.5 28.5-28.5 15.8 0 28.6 12.7 28.6 28.5z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-miterlimit="10" d="m119.7 43.1c0 15.7-12.8 28.5-28.6 28.5-15.7 0-28.5-12.8-28.5-28.5 0-15.8 12.8-28.5 28.5-28.5 15.8 0 28.6 12.7 28.6 28.5z"/>
 			</g>
 			<text id="$
 " style="transform: matrix(1,0,0,1,79.383,55.91)" >
-				<tspan x="0" y="0" class="t2">$
+				<tspan x="0" y="0" font-size="47px" fill="#ffffff" font-family="Source Sans Roman">$
 </tspan>
 			</text>
 		</g>

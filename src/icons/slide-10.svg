@@ -1,72 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 173.61 120.76">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-      }
-
-      .cls-1, .cls-2 {
-        stroke: #fff;
-        stroke-miterlimit: 10;
-      }
-
-      .cls-2 {
-        fill: #403f4d;
-      }
-    </style>
-  </defs>
   <g id="_предсказание" data-name="предсказание">
     <g>
-      <polygon class="cls-2" points="51.11 75.61 7.55 120.05 .7 113.19 44.26 68.75 51.11 75.61"/>
+      <polygon fill="#403f4d" stroke="#fff" stroke-miterlimit="10" points="51.11 75.61 7.55 120.05 .7 113.19 44.26 68.75 51.11 75.61"/>
       <g>
-        <polyline class="cls-1" points="142.38 42.25 132.79 42.25 119.19 49.94"/>
-        <polyline class="cls-1" points="155.4 34.59 155.37 34.59 155.36 34.58 132.79 34.58 119.79 41.94"/>
+        <polyline fill="none" stroke="#fff" stroke-miterlimit="10" points="142.38 42.25 132.79 42.25 119.19 49.94"/>
+        <polyline fill="none" stroke="#fff" stroke-miterlimit="10" points="155.4 34.59 155.37 34.59 155.36 34.58 132.79 34.58 119.79 41.94"/>
         <g>
-          <polyline class="cls-1" points="155.4 26.69 155.37 26.69 166.99 26.68 132.79 26.68 118.84 34.58"/>
-          <circle class="cls-2" cx="170.05" cy="26.68" r="3.06"/>
+          <polyline fill="none" stroke="#fff" stroke-miterlimit="10" points="155.4 26.69 155.37 26.69 166.99 26.68 132.79 26.68 118.84 34.58"/>
+          <circle fill="#403f4d" stroke="#fff" stroke-miterlimit="10" cx="170.05" cy="26.68" r="3.06"/>
         </g>
       </g>
-      <circle class="cls-2" cx="75.12" cy="44.94" r="44.44"/>
-      <circle class="cls-2" cx="75.12" cy="44.94" r="37.46"/>
+      <circle fill="#403f4d" stroke="#fff" stroke-miterlimit="10" cx="75.12" cy="44.94" r="44.44"/>
+      <circle fill="#403f4d" stroke="#fff" stroke-miterlimit="10" cx="75.12" cy="44.94" r="37.46"/>
       <g>
-        <circle class="cls-2" cx="75.12" cy="44.94" r="16.11"/>
+        <circle fill="#403f4d" stroke="#fff" stroke-miterlimit="10" cx="75.12" cy="44.94" r="16.11"/>
         <g>
-          <line class="cls-2" x1="86.51" y1="33.55" x2="93.02" y2="27.04"/>
-          <line class="cls-2" x1="91.39" y1="25.41" x2="94.64" y2="28.67"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="86.51" y1="33.55" x2="93.02" y2="27.04"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="91.39" y1="25.41" x2="94.64" y2="28.67"/>
         </g>
         <g>
-          <line class="cls-2" x1="75.12" y1="28.83" x2="75.12" y2="19.63"/>
-          <line class="cls-2" x1="72.82" y1="19.63" x2="77.42" y2="19.63"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="75.12" y1="28.83" x2="75.12" y2="19.63"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="72.82" y1="19.63" x2="77.42" y2="19.63"/>
         </g>
         <g>
-          <line class="cls-2" x1="63.73" y1="33.55" x2="57.22" y2="27.04"/>
-          <line class="cls-2" x1="55.59" y1="28.67" x2="58.85" y2="25.41"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="63.73" y1="33.55" x2="57.22" y2="27.04"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="55.59" y1="28.67" x2="58.85" y2="25.41"/>
         </g>
         <g>
-          <line class="cls-2" x1="59.01" y1="44.94" x2="49.8" y2="44.94"/>
-          <line class="cls-2" x1="49.8" y1="47.24" x2="49.8" y2="42.64"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="59.01" y1="44.94" x2="49.8" y2="44.94"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="49.8" y1="47.24" x2="49.8" y2="42.64"/>
         </g>
         <g>
-          <line class="cls-2" x1="63.73" y1="56.33" x2="57.22" y2="62.84"/>
-          <line class="cls-2" x1="58.85" y1="64.46" x2="55.59" y2="61.21"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="63.73" y1="56.33" x2="57.22" y2="62.84"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="58.85" y1="64.46" x2="55.59" y2="61.21"/>
         </g>
         <g>
-          <line class="cls-2" x1="75.12" y1="61.05" x2="75.12" y2="70.25"/>
-          <line class="cls-2" x1="77.42" y1="70.25" x2="72.82" y2="70.25"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="75.12" y1="61.05" x2="75.12" y2="70.25"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="77.42" y1="70.25" x2="72.82" y2="70.25"/>
         </g>
         <g>
-          <line class="cls-2" x1="86.51" y1="56.33" x2="93.02" y2="62.84"/>
-          <line class="cls-2" x1="94.64" y1="61.21" x2="91.39" y2="64.46"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="86.51" y1="56.33" x2="93.02" y2="62.84"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="94.64" y1="61.21" x2="91.39" y2="64.46"/>
         </g>
         <g>
-          <line class="cls-2" x1="91.22" y1="44.94" x2="100.43" y2="44.94"/>
-          <line class="cls-2" x1="100.43" y1="42.64" x2="100.43" y2="47.24"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="91.22" y1="44.94" x2="100.43" y2="44.94"/>
+          <line fill="#403f4d" stroke="#fff" stroke-miterlimit="10" x1="100.43" y1="42.64" x2="100.43" y2="47.24"/>
         </g>
-        <circle class="cls-2" cx="75.12" cy="44.94" r="12.25"/>
+        <circle fill="#403f4d" stroke="#fff" stroke-miterlimit="10" cx="75.12" cy="44.94" r="12.25"/>
       </g>
-      <circle class="cls-2" cx="145.45" cy="42.24" r="3.06"/>
-      <circle class="cls-2" cx="158.42" cy="34.58" r="3.06"/>
+      <circle fill="#403f4d" stroke="#fff" stroke-miterlimit="10" cx="145.45" cy="42.24" r="3.06"/>
+      <circle fill="#403f4d" stroke="#fff" stroke-miterlimit="10" cx="158.42" cy="34.58" r="3.06"/>
     </g>
   </g>
 </svg>

@@ -1,53 +1,45 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 48" width="112" height="48">
-	<title>ии</title>
-	<style>
-		.s0 { fill: none;stroke: #ffffff;stroke-linejoin: round } 
-		.s1 { fill: #2c92e5 } 
-		.s2 { fill: #a6dae8 } 
-		.s3 { fill: #403f4d } 
-		.s4 { fill: #ffffff } 
-	</style>
 	<g id="ии">
 		<g id="-e-&lt;Group&gt;">
 			<g id="&lt;Group&gt;">
-				<path id="&lt;Path&gt;" class="s0" d="m39.9 33.4l-12.1 12.2h-11.8"/>
-				<path id="&lt;Path&gt;" class="s0" d="m31.7 30.1l-6.8 6.9"/>
-				<path id="&lt;Path&gt;" class="s0" d="m26.3 25.3l-8.2 8.1h-13.7"/>
-				<path id="&lt;Path&gt;" class="s0" d="m14.2 43.8c1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8-1 0-1.8-0.9-1.8-1.8 0-1 0.9-1.8 1.8-1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m24 36.4c1 0.1 1.8 0.9 1.8 1.9 0 1-0.8 1.8-1.8 1.7-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m2.6 31.6c1 0 1.8 0.8 1.8 1.8-0.1 1-0.9 1.8-1.9 1.8-0.9 0-1.7-0.8-1.7-1.8 0-1 0.8-1.8 1.8-1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m39.9 33.4l-12.1 12.2h-11.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m31.7 30.1l-6.8 6.9"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m26.3 25.3l-8.2 8.1h-13.7"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m14.2 43.8c1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8-1 0-1.8-0.9-1.8-1.8 0-1 0.9-1.8 1.8-1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m24 36.4c1 0.1 1.8 0.9 1.8 1.9 0 1-0.8 1.8-1.8 1.7-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m2.6 31.6c1 0 1.8 0.8 1.8 1.8-0.1 1-0.9 1.8-1.9 1.8-0.9 0-1.7-0.8-1.7-1.8 0-1 0.8-1.8 1.8-1.8z"/>
 			</g>
 			<g id="&lt;Group&gt;">
-				<path id="&lt;Path&gt;" class="s0" d="m71.8 33.4l12.2 12.2h11.7"/>
-				<path id="&lt;Path&gt;" class="s0" d="m80 30.1l6.9 6.9"/>
-				<path id="&lt;Path&gt;" class="s0" d="m85.5 25.3l8.1 8.1h13.8"/>
-				<path id="&lt;Path&gt;" class="s0" d="m97.5 43.8c-1 0-1.8 0.8-1.8 1.8 0 1 0.8 1.8 1.8 1.8 1 0 1.8-0.9 1.8-1.8 0-1-0.8-1.8-1.8-1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m87.8 36.4c-1 0.1-1.8 0.9-1.8 1.9 0 1 0.8 1.8 1.8 1.7 1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m109.2 31.6c-1 0-1.8 0.8-1.8 1.8 0 1 0.8 1.8 1.8 1.8 1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m71.8 33.4l12.2 12.2h11.7"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m80 30.1l6.9 6.9"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m85.5 25.3l8.1 8.1h13.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m97.5 43.8c-1 0-1.8 0.8-1.8 1.8 0 1 0.8 1.8 1.8 1.8 1 0 1.8-0.9 1.8-1.8 0-1-0.8-1.8-1.8-1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m87.8 36.4c-1 0.1-1.8 0.9-1.8 1.9 0 1 0.8 1.8 1.8 1.7 1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m109.2 31.6c-1 0-1.8 0.8-1.8 1.8 0 1 0.8 1.8 1.8 1.8 1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8z"/>
 			</g>
 			<g id="&lt;Group&gt;">
-				<path id="&lt;Path&gt;" class="s0" d="m39.9 15l-12.1-12.1h-11.8"/>
-				<path id="&lt;Path&gt;" class="s0" d="m31.7 18.3l-6.8-6.8"/>
-				<path id="&lt;Path&gt;" class="s0" d="m26.3 23.2l-8.2-8.2h-13.7"/>
-				<path id="&lt;Path&gt;" class="s0" d="m14.2 4.7c1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8-1 0-1.8 0.8-1.8 1.8 0 1 0.9 1.8 1.8 1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m24 12c1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8-1 0-1.8 0.8-1.8 1.8 0 1 0.8 1.8 1.8 1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m2.6 16.8c1 0 1.8-0.8 1.8-1.8-0.1-1-0.9-1.8-1.9-1.8-0.9 0-1.7 0.8-1.7 1.8 0 1 0.8 1.8 1.8 1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m39.9 15l-12.1-12.1h-11.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m31.7 18.3l-6.8-6.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m26.3 23.2l-8.2-8.2h-13.7"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m14.2 4.7c1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8-1 0-1.8 0.8-1.8 1.8 0 1 0.9 1.8 1.8 1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m24 12c1 0 1.8-0.8 1.8-1.8 0-1-0.8-1.8-1.8-1.8-1 0-1.8 0.8-1.8 1.8 0 1 0.8 1.8 1.8 1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m2.6 16.8c1 0 1.8-0.8 1.8-1.8-0.1-1-0.9-1.8-1.9-1.8-0.9 0-1.7 0.8-1.7 1.8 0 1 0.8 1.8 1.8 1.8z"/>
 			</g>
 			<g id="&lt;Group&gt;">
-				<path id="&lt;Path&gt;" class="s0" d="m71.8 15l12.2-12.1h11.7"/>
-				<path id="&lt;Path&gt;" class="s0" d="m80 18.3l6.9-6.8"/>
-				<path id="&lt;Path&gt;" class="s0" d="m85.5 23.2l8.1-8.2h13.8"/>
-				<path id="&lt;Path&gt;" class="s0" d="m97.5 4.7c-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8 1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m87.8 12c-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8 1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8z"/>
-				<path id="&lt;Path&gt;" class="s0" d="m109.2 16.8c-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8 1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m71.8 15l12.2-12.1h11.7"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m80 18.3l6.9-6.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m85.5 23.2l8.1-8.2h13.8"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m97.5 4.7c-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8 1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m87.8 12c-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8 1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8z"/>
+				<path id="&lt;Path&gt;" fill="none" stroke="#ffffff" stroke-linejoin="round" d="m109.2 16.8c-1 0-1.8-0.8-1.8-1.8 0-1 0.8-1.8 1.8-1.8 1 0 1.8 0.8 1.8 1.8 0 1-0.8 1.8-1.8 1.8z"/>
 			</g>
 			<g id="&lt;Group&gt;">
 				<g id="&lt;Group&gt;">
-					<path id="&lt;Path&gt;" class="s1" d="m73.8 20.6c0 9.9-8 18-17.9 18-9.9 0-18-8.1-18-18q0-2.7 0.8-5.1 3.2-1.3 6.6-2.1c-1.4 2-2.2 4.5-2.2 7.2 0 7.1 5.7 12.8 12.8 12.8 7.1 0 12.8-5.7 12.8-12.8 0-2.7-0.8-5.2-2.3-7.2q3.4 0.8 6.7 2.1 0.7 2.4 0.7 5.1z"/>
+					<path id="&lt;Path&gt;" fill="#2c92e5" d="m73.8 20.6c0 9.9-8 18-17.9 18-9.9 0-18-8.1-18-18q0-2.7 0.8-5.1 3.2-1.3 6.6-2.1c-1.4 2-2.2 4.5-2.2 7.2 0 7.1 5.7 12.8 12.8 12.8 7.1 0 12.8-5.7 12.8-12.8 0-2.7-0.8-5.2-2.3-7.2q3.4 0.8 6.7 2.1 0.7 2.4 0.7 5.1z"/>
 					<g id="&lt;Group&gt;">
-						<path id="&lt;Path&gt;" class="s2" d="m87.8 25.3c-8.8 8.8-20.4 13.3-31.9 13.3 9.9 0 17.9-8.1 17.9-18q0-2.7-0.7-5.1c5.3 2.2 10.3 5.5 14.7 9.8z"/>
-						<path id="&lt;Path&gt;" class="s2" d="m55.9 38.6c-11.6 0-23.1-4.5-31.9-13.3 4.3-4.3 9.3-7.6 14.7-9.8q-0.8 2.4-0.8 5.1c0 9.9 8.1 18 18 18z"/>
-						<path id="&lt;Path&gt;" class="s3" d="m68.7 20.6c0 7.1-5.7 12.8-12.8 12.8-7.1 0-12.8-5.7-12.8-12.8 0-2.7 0.8-5.2 2.2-7.2 7-1.7 14.2-1.7 21.1 0 1.5 2 2.3 4.5 2.3 7.2z"/>
+						<path id="&lt;Path&gt;" fill="#a6dae8" d="m87.8 25.3c-8.8 8.8-20.4 13.3-31.9 13.3 9.9 0 17.9-8.1 17.9-18q0-2.7-0.7-5.1c5.3 2.2 10.3 5.5 14.7 9.8z"/>
+						<path id="&lt;Path&gt;" fill="#a6dae8" d="m55.9 38.6c-11.6 0-23.1-4.5-31.9-13.3 4.3-4.3 9.3-7.6 14.7-9.8q-0.8 2.4-0.8 5.1c0 9.9 8.1 18 18 18z"/>
+						<path id="&lt;Path&gt;" fill="#403f4d" d="m68.7 20.6c0 7.1-5.7 12.8-12.8 12.8-7.1 0-12.8-5.7-12.8-12.8 0-2.7 0.8-5.2 2.2-7.2 7-1.7 14.2-1.7 21.1 0 1.5 2 2.3 4.5 2.3 7.2z"/>
 					</g>
 				</g>
 			</g>
@@ -55,7 +47,7 @@
 				<g id="&lt;Group&gt;">
 					<g id="&lt;Group&gt;">
 						<g id="&lt;Group&gt;">
-							<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="s4" d="m66.7 12.4c2.3 0.5 4.6 1.3 6.8 2.2 5.6 2.3 10.7 5.7 15 10l0.7 0.7-0.7 0.7c-8.7 8.8-20.3 13.6-32.6 13.6h-0.1c-12.3-0.1-23.8-4.9-32.5-13.6l-0.7-0.7 0.7-0.7c4.3-4.3 9.4-7.7 15-10 2.2-0.9 4.5-1.7 6.8-2.2 3.5-0.9 7.1-1.3 10.8-1.3 3.6 0 7.2 0.4 10.8 1.3zm-21.4 1q-3.4 0.8-6.6 2.1c-5.4 2.2-10.4 5.5-14.7 9.8 8.8 8.8 20.3 13.2 31.8 13.3h0.1c11.5 0 23.1-4.5 31.9-13.3-4.4-4.3-9.4-7.6-14.7-9.8q-3.3-1.3-6.7-2.1c-3.4-0.9-7-1.3-10.5-1.3-3.6 0-7.1 0.4-10.6 1.3z"/>
+							<path id="&lt;Compound Path&gt;" fill-rule="evenodd" fill="#ffffff" d="m66.7 12.4c2.3 0.5 4.6 1.3 6.8 2.2 5.6 2.3 10.7 5.7 15 10l0.7 0.7-0.7 0.7c-8.7 8.8-20.3 13.6-32.6 13.6h-0.1c-12.3-0.1-23.8-4.9-32.5-13.6l-0.7-0.7 0.7-0.7c4.3-4.3 9.4-7.7 15-10 2.2-0.9 4.5-1.7 6.8-2.2 3.5-0.9 7.1-1.3 10.8-1.3 3.6 0 7.2 0.4 10.8 1.3zm-21.4 1q-3.4 0.8-6.6 2.1c-5.4 2.2-10.4 5.5-14.7 9.8 8.8 8.8 20.3 13.2 31.8 13.3h0.1c11.5 0 23.1-4.5 31.9-13.3-4.4-4.3-9.4-7.6-14.7-9.8q-3.3-1.3-6.7-2.1c-3.4-0.9-7-1.3-10.5-1.3-3.6 0-7.1 0.4-10.6 1.3z"/>
 						</g>
 					</g>
 				</g>

@@ -8,16 +8,16 @@ const FIGURE_RADIUS = 5; // Радиус
 const CURV_COEF = 2; // Коэффициент отклонения углов
 const LINES_COLOR = "#ffffff"; // Цвет линий
 const SPHERE_COLORS = [
-	"#4287f5",
-	"#42f598",
-	"#4f1aab",
-	"#db891d",
-	"#e81010",
-	"#e81078",
-	"#e5ff00",
-	"#231e29",
-	"#ac99c2",
-	"#49522f"
+	"#c0392b",
+	"#fa6727",
+	"#f8104b",
+	"#7cbb3b",
+	"#29b579",
+	"#1d7372",
+	"#00a6b4",
+	"#1d7372",
+	"#2c92e5",
+	"#2dcc70"
 ]; // Цвет атомов
 
 const parent = document.querySelector(".canvas__window");
@@ -114,9 +114,11 @@ for (let i = 0; i < ANGLES_NUM * 2; i++) {
 	const alpha = 2 * i * Math.PI / ANGLES_NUM;
 	const geometry = new THREE.SphereGeometry(0.2, 32, 16);
 	const materialBox = new THREE.MeshBasicMaterial({
-		color: SPHERE_COLORS[i]
+		color: SPHERE_COLORS[i],
+		opacity: 1
 	});
 	const sphere = new THREE.Mesh(geometry, materialBox);
+	sphere.userData = {"data-tab": `tab-${i}`}; // Ставим дата аттрибут для табов
 
 	// Первую половину атомов располагаем на верхней плоскости, вторую - на нижней
 	if (i < ANGLES_NUM) {
@@ -147,7 +149,7 @@ animate();
 /* При клике и наведении на атом увеличиваем его */
 const raycaster = new THREE.Raycaster();
 
-const setAnimation = (e) => {
+const animationHoverHandler = (e) => {
 	const coords = new THREE.Vector2(
 		(((e.clientX - renderer.domElement.getBoundingClientRect().left) / renderer.domElement.clientWidth) * 2) - 1,
 		-(((e.clientY - renderer.domElement.getBoundingClientRect().top) / renderer.domElement.clientHeight) * 2) + 1,
@@ -161,23 +163,34 @@ const setAnimation = (e) => {
 	const intersections = raycaster.intersectObjects(triggeredElems, true);
 
 	if (intersections.length > 0) {
-		//triggeredElems.forEach(el => el.scale.set(1, 1, 1));
 		const selectedObject = intersections[0].object;
-		//selectedObject.scale.set(2, 2, 2);
-		new TWEEN.Tween(selectedObject.scale)
+		console.log(selectedObject)
+		new TWEEN.Tween(selectedObject.material.opacity)
 			.to({
-				x: 2,
-				y: 2,
-				z: 2
+				opacity: 0.1
 			}, 500)
 			//.delay (1000)
-			.easing(TWEEN.Easing.Cubic.Out)
+			.easing(TWEEN.Easing.Linear.None)
 			.onUpdate(function() {
-				selectedObject.scale.copy(selectedObject.scale);
+				selectedObject.material.copy(selectedObject.material);
 			})
 			.start()
+	} else {
+		triggeredElems.forEach(el => {
+			new TWEEN.Tween(el.material.opacity)
+			.to({
+				opacity: 1
+			}, 500)
+			.easing(TWEEN.Easing.Linear.None)
+			.onUpdate(function() {
+				el.material.copy(el.material);
+			})
+			.start()
+		});
 	}
 }
 
-renderer.domElement.addEventListener("mousedown", setAnimation);
-renderer.domElement.addEventListener("pointermove", setAnimation);
+
+
+//renderer.domElement.addEventListener("mousedown", animationClickHandler);
+renderer.domElement.addEventListener("pointermove", animationHoverHandler);

@@ -16,7 +16,7 @@ block main
 						+icon("projector")
 			.graphic__right
 				.graphic__tabs
-					.graphic__tab.desc.desc--4(style="display: none")
+					.graphic__tab.desc.desc--4(data-tab="tab-1", style="display: block")
 						.desc__title
 							span.desc__title-num <span>O</span>1
 							span.desc__title-text Медицина
@@ -38,7 +38,7 @@ block main
 								.desc__image
 									+icon("slide-1-4")(width="", height="")
 								.desc__text Улучшенная визуализация КТ и МРТ снимков
-					.graphic__tab.desc.desc--2
+					.graphic__tab.desc.desc--2(data-tab="tab-2")
 						.desc__title
 							span.desc__title-num <span>O</span>2
 							span.desc__title-text Криптография
@@ -52,7 +52,7 @@ block main
 								.desc__image
 									+icon("slide-2-2")(width="", height="")
 								.desc__text Попытка взлома будет обнаружена
-					.graphic__tab.desc.desc--3(style="display: none")
+					.graphic__tab.desc.desc--3(data-tab="tab-3")
 						.desc__title
 							span.desc__title-num <span>O</span>3
 							span.desc__title-text Транспорт, логистика
@@ -70,7 +70,7 @@ block main
 								.desc__image
 									+icon("slide-3-3")(width="", height="")
 								.desc__text Создание графиков и смен водителей, курьеров и т.д
-					.graphic__tab.desc.desc--3(style="display: none")
+					.graphic__tab.desc.desc--3(data-tab="tab-4")
 						.desc__title
 							span.desc__title-num <span>O</span>4
 							span.desc__title-text Моделирование молекул
@@ -88,7 +88,7 @@ block main
 								.desc__image
 									+icon("slide-4-3")(width="", height="")
 								.desc__text Замена дорогостоящим опытам
-					.graphic__tab.desc.desc--4(style="display: none")
+					.graphic__tab.desc.desc--4(data-tab="tab-5")
 						.desc__title
 							span.desc__title-num <span>O</span>5
 							span.desc__title-text Финансы
@@ -110,7 +110,7 @@ block main
 								.desc__image
 									+icon("slide-5-4")(width="", height="")
 								.desc__text Выявление мошенничества
-					.graphic__tab.desc.desc--2(style="display: none")
+					.graphic__tab.desc.desc--2(data-tab="tab-6")
 						.desc__title
 							span.desc__title-num <span>O</span>6
 							span.desc__title-text Улучшение покрытия спутников
@@ -124,7 +124,7 @@ block main
 								.desc__image
 									+icon("slide-6-2")(width="", height="")
 								.desc__text Лучшее покрытие для моби&shy;льной и спутниковой связи
-					.graphic__tab.desc.desc--3(style="display: none")
+					.graphic__tab.desc.desc--3(data-tab="tab-7")
 						.desc__title
 							span.desc__title-num <span>O</span>7
 							span.desc__title-text Более эффективная реклама
@@ -142,7 +142,7 @@ block main
 								.desc__image
 									+icon("slide-7-3")(width="", height="")
 								.desc__text Более эффективное медиапланирование
-					.graphic__tab.desc.desc--2(style="display: none")
+					.graphic__tab.desc.desc--2(data-tab="tab-8")
 						.desc__title
 							span.desc__title-num <span>O</span>8
 							span.desc__title-text Искуственный интеллект
@@ -156,7 +156,7 @@ block main
 								.desc__image
 									+icon("slide-8-2")(width="", height="")
 								.desc__text Более высокая точность и скорость ответов нейросетей
-					.graphic__tab.desc.desc--2(style="display: none")
+					.graphic__tab.desc.desc--2(data-tab="tab-9")
 						.desc__title
 							span.desc__title-num <span>O</span>9
 							span.desc__title-text Прогноз погоды
@@ -170,7 +170,7 @@ block main
 								.desc__image
 									+icon("slide-9-2")(width="", height="")
 								.desc__text Большая глубина прогнозов
-					.graphic__tab.desc.desc--3(style="display: none")
+					.graphic__tab.desc.desc--3(data-tab="tab-10")
 						.desc__title
 							span.desc__title-num 1<span>O</span>
 							span.desc__title-text Предсказаниe пандемий
