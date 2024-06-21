@@ -2,34 +2,49 @@ import * as THREE from './three.module.min.js';
 import {OrbitControls} from './OrbitControls.js';
 import TWEEN from './tween.module.js';
 
+const w1600 = window.matchMedia("(min-width: 1600px)");
+const w1300 = window.matchMedia("(min-width: 1300px)");
+const w768 = window.matchMedia("(min-width: 768px)");
+const w576 = window.matchMedia("(min-width: 576px)");
 const ANGLES_NUM = 5; // Количество углов у плоской фигуры
-const FIGURE_HEIGHT = 5.5; // Высота объемной фигуры
-const FIGURE_RADIUS = 5; // Радиус
-const CURV_COEF = 2; // Коэффициент отклонения углов
+const FIGURE_HEIGHT = w768.matches ? 5.5 : w576.matches ? 13 : 16; // Высота объемной фигуры
+const FIGURE_RADIUS = w768.matches ? 5 : w576.matches ? 4 : 3; // Радиус
+const CURV_COEF = w768.matches ? 2 : 1.3; // Коэффициент отклонения углов
 const LINES_COLOR = "#ffffff"; // Цвет линий
 const SPHERE_COLORS = [
-	"#c0392b",
+	"#29b579",
 	"#fa6727",
 	"#f8104b",
-	"#7cbb3b",
-	"#29b579",
 	"#1d7372",
 	"#00a6b4",
 	"#1d7372",
+	"#c0392b",
 	"#2c92e5",
-	"#2dcc70"
+	"#2dcc70",
+	"#7cbb3b"
 ]; // Цвет атомов
 
 const parent = document.querySelector(".canvas__window");
+const tabs = document.querySelectorAll(".graphic__tab");
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
-//camera.position.set(0, -9.5, 2.7);
-camera.position.set(-0.19058996153741722, -8.456740289133542, 1.5396789741867494);
-//camera.lookAt(scene.position);
+if (w1600.matches) {
+	camera.position.set(-0.19058996153741722, -8.456740289133542, 1.5396789741867494);
+} else if (w1300.matches) {
+	camera.position.set(-0.19058996153741642, -11.157212056000972, 2.783018838956491);
+} else {
+	camera.position.set(-0.1905899615374156, -18.100924888631944, 5.980013927091829);
+}
+camera.aspect = parent.offsetWidth / parent.offsetWidth;
 const renderer = new THREE.WebGLRenderer({
 	antialias: true
 });
-renderer.setSize(parent.offsetWidth, parent.offsetWidth);
+if (w576.matches) {
+	renderer.setSize(parent.offsetWidth, parent.offsetWidth);
+} else {
+	renderer.setSize(parent.offsetWidth, parent.offsetHeight);
+}
+
 renderer.setClearColor(0x403f4d, 0);
 parent.appendChild(renderer.domElement);
 
@@ -112,13 +127,13 @@ for (let linesCount = 0; linesCount < ANGLES_NUM; linesCount++) {
 /* Сферы атомы */
 for (let i = 0; i < ANGLES_NUM * 2; i++) {
 	const alpha = 2 * i * Math.PI / ANGLES_NUM;
-	const geometry = new THREE.SphereGeometry(0.2, 32, 16);
+	const geometry = new THREE.SphereGeometry(0.3, 32, 16);
 	const materialBox = new THREE.MeshBasicMaterial({
 		color: SPHERE_COLORS[i],
-		opacity: 1
+		transparent: true
 	});
 	const sphere = new THREE.Mesh(geometry, materialBox);
-	sphere.userData = {"data-tab": `tab-${i}`}; // Ставим дата аттрибут для табов
+	sphere.userData = {"data-tab": `tab-${i+1}`, "r": `${sphere.material.color.r}`, "g": `${sphere.material.color.g}`, "b": `${sphere.material.color.b}`}; // Ставим дата аттрибуты для табов и исходного цвета
 
 	// Первую половину атомов располагаем на верхней плоскости, вторую - на нижней
 	if (i < ANGLES_NUM) {
@@ -146,6 +161,26 @@ const animate = () => {
 
 animate();
 
+/* Функции для плавности переключения табов */
+const fadeIn = (el, timeout, display) => {
+	el.style.opacity = 0;
+	el.style.display = display || 'block';
+	el.style.transition = `opacity ${timeout}ms`;
+	setTimeout(() => {
+	  el.style.opacity = 1;
+	}, 10);
+};
+
+const fadeOut = (el, timeout) => {
+	el.style.opacity = 1;
+	el.style.transition = `opacity ${timeout}ms`;
+	el.style.opacity = 0;
+  
+	setTimeout(() => {
+	  el.style.display = 'none';
+	}, timeout);
+};
+
 /* При клике и наведении на атом увеличиваем его */
 const raycaster = new THREE.Raycaster();
 
@@ -163,34 +198,103 @@ const animationHoverHandler = (e) => {
 	const intersections = raycaster.intersectObjects(triggeredElems, true);
 
 	if (intersections.length > 0) {
-		const selectedObject = intersections[0].object;
-		console.log(selectedObject)
-		new TWEEN.Tween(selectedObject.material.opacity)
-			.to({
-				opacity: 0.1
-			}, 500)
-			//.delay (1000)
-			.easing(TWEEN.Easing.Linear.None)
-			.onUpdate(function() {
-				selectedObject.material.copy(selectedObject.material);
-			})
-			.start()
-	} else {
 		triggeredElems.forEach(el => {
-			new TWEEN.Tween(el.material.opacity)
+			new TWEEN.Tween(el.material)
 			.to({
 				opacity: 1
-			}, 500)
+			}, 200)
 			.easing(TWEEN.Easing.Linear.None)
 			.onUpdate(function() {
 				el.material.copy(el.material);
 			})
 			.start()
 		});
+
+		const selectedObject = intersections[0].object;
+		new TWEEN.Tween(selectedObject.material)
+			.to({
+				opacity: 0.5
+			}, 200)
+			.easing(TWEEN.Easing.Linear.None)
+			.onUpdate(function() {
+				selectedObject.material.copy(selectedObject.material);
+			})
+			.start()
 	}
 }
 
+const animationClickHandler = (e) => {
+	const coords = new THREE.Vector2(
+		(((e.clientX - renderer.domElement.getBoundingClientRect().left) / renderer.domElement.clientWidth) * 2) - 1,
+		-(((e.clientY - renderer.domElement.getBoundingClientRect().top) / renderer.domElement.clientHeight) * 2) + 1,
+	);
+	const triggeredElems = scene.children.filter((el) => {
+		return el.isMesh
+	});
 
+	raycaster.setFromCamera(coords, camera);
 
-//renderer.domElement.addEventListener("mousedown", animationClickHandler);
+	const intersections = raycaster.intersectObjects(triggeredElems, true);
+
+	if (intersections.length > 0) {
+		triggeredElems.forEach(el => {
+			new TWEEN.Tween(el.scale)
+			.to({
+				x: 1,
+				y: 1,
+				z: 1
+			}, 500)
+			.easing(TWEEN.Easing.Linear.None)
+			.onUpdate(function() {
+				el.scale.copy(el.scale);
+			})
+			.start()
+		});
+
+		const selectedObject = intersections[0].object;
+		const activeTab = document.querySelector(`.graphic__tab[data-tab="${selectedObject.userData['data-tab']}"]`);
+		new TWEEN.Tween(selectedObject.scale)
+			.to({
+				x: 2,
+				y: 2,
+				z: 2
+			}, 500)
+			.easing(TWEEN.Easing.Linear.None)
+			.onUpdate(function() {
+				selectedObject.scale.copy(selectedObject.scale);
+			})
+			.start()
+
+		document.querySelector(".anim-opacity").classList.remove("anim-opacity");
+		tabs.forEach(el => { 
+			el.style.display = "none";
+		});
+		activeTab.classList.add("anim-opacity");
+		/* Показываем таб */
+		fadeIn(activeTab, 300);
+
+		const text = document.querySelectorAll(".anim-opacity .desc__title-text, .anim-opacity .desc__text");
+		text.forEach((el, index) => {
+			el.style.opacity = "0";
+			el.style.transform = "translateY(5px)";
+		});
+		setTimeout(() => {
+			text.forEach((el, i) => {
+				setTimeout(() => {
+					el.style.opacity = "1";
+					el.style.transform = "translateY(0)";
+				}, 300 * i);
+			});
+		}, 200);
+
+		/* Скроллим к табу */
+		if (!w768.matches) {
+			document.querySelector(`.graphic__tab[data-tab="${selectedObject.userData['data-tab']}"]`).scrollIntoView({
+				behavior: 'smooth'
+			});
+		}
+	}
+}
+
+renderer.domElement.addEventListener("mousedown", animationClickHandler);
 renderer.domElement.addEventListener("pointermove", animationHoverHandler);
