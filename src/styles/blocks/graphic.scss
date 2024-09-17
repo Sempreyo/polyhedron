@@ -18,25 +18,16 @@
 		margin: 0 auto;
 
 		@include min(ti) {
-			flex-direction: row;
 			gap: vw(50);
 		}
 	}
 
 	&__left {
 		width: 100%;
-
-		@include min(ti) {
-			width: calc(33% - (50vw/1920) * 100 / 2);
-		}
 	}
 
 	&__right {
 		width: 100%;
-
-		@include min(ti) {
-			width: calc(67% - (50vw/1920) * 100 / 2);
-		}
 	}
 
 	&__logo {

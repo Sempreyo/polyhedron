@@ -32,6 +32,7 @@
 		"debug": "^4.3.4",
 		"gulp-rename": "^2.0.0",
 		"gulp-svgstore": "^7.0.1",
-		"swiper": "^11.0.7"
+		"swiper": "^11.0.7",
+		"three": "^0.168.0"
 	}
 }

@@ -15,6 +15,11 @@
           <div class="graphic__left">
             <div class="canvas">
               <div class="canvas__window"></div>
+              <div class="canvas__note">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprite.svg#cursor"></use>
+                </svg><span>Вращайте решетку и кликайте на атомы для выбора темы</span>
+              </div>
               <div class="canvas__image">
                 <svg>
                   <use xlink:href="./images/sprite.svg#projector"></use>
@@ -351,6 +356,11 @@
   </body>
   <script src="./js/three.module.min.js" type="module"></script>
   <script src="./js/OrbitControls.js" type="module"></script>
+  <script src="./js/Line2.js" type="module"></script>
+  <script src="./js/LineGeometry.js" type="module"></script>
+  <script src="./js/LineMaterial.js" type="module"></script>
+  <script src="./js/LineSegments2.js" type="module"></script>
+  <script src="./js/LineSegmentsGeometry.js" type="module"></script>
   <script src="./js/main.min.js"></script>
   <script src="./js/3d-model.js" type="module"></script>
 </html>
