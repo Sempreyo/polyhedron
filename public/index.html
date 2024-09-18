@@ -14,16 +14,27 @@
         <div class="graphic__wrapper">
           <div class="graphic__left">
             <div class="canvas">
-              <div class="canvas__window"></div>
-              <div class="canvas__note">
-                <svg width="20" height="20">
-                  <use xlink:href="./images/sprite.svg#cursor"></use>
-                </svg><span>Вращайте решетку и кликайте на атомы для выбора темы</span>
-              </div>
-              <div class="canvas__image">
-                <svg>
-                  <use xlink:href="./images/sprite.svg#projector"></use>
-                </svg>
+              <div class="canvas__wrapper">
+                <div class="canvas__window canvas__window--overlay"></div>
+                <div class="canvas__note">
+                  <div class="canvas__note-item canvas__note-item--1">
+                    <svg width="20" height="20">
+                      <use xlink:href="./images/sprite.svg#cursor"></use>
+                    </svg><span>Вращайте решетку</span>
+                  </div>
+                  <div class="canvas__note-item canvas__note-item--2">
+                    <svg width="20" height="20">
+                      <use xlink:href="./images/sprite.svg#cursor-click"></use>
+                    </svg><span>Кликайте на атомы для перехода к слайду</span>
+                  </div>
+                  <div class="canvas__note-item canvas__note-item--3">
+                    <svg width="20" height="20">
+                      <use xlink:href="./images/sprite.svg#cursor-scroll"></use>
+                    </svg><span>Приближайте и отдаляйте решетку</span>
+                  </div>
+                </div>
+                <!--.canvas__image+icon("projector")
+                -->
               </div>
             </div>
           </div>

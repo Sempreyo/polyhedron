@@ -11,3 +11,44 @@
 		transform: translateY(0);
 	}
 }
+
+@keyframes moveSide {
+	0%,
+	30% {
+		transform: translateX(0);
+	}
+
+	10% {
+		transform: translateX(-5px);
+	}
+
+	20% {
+		transform: translateX(5px);
+	}
+}
+
+@keyframes moveUp {
+	0%,
+	30% {
+		transform: translateY(0);
+	}
+
+	10% {
+		transform: translateY(5px);
+	}
+
+	20% {
+		transform: translateY(-5px);
+	}
+}
+
+@keyframes scaleDown {
+	0%,
+	6% {
+		transform: scale(1);
+	}
+
+	3% {
+		transform: scale(0.8);
+	}
+}

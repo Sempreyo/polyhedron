@@ -18,11 +18,13 @@
 		margin: 0 auto;
 
 		@include min(ti) {
-			gap: vw(50);
+			gap: 50px;
 		}
 	}
 
 	&__left {
+		display: flex;
+		justify-content: center;
 		width: 100%;
 	}
 
@@ -36,12 +38,6 @@
 		transform: translateX(-50%);
 		display: inline-block;
 		margin-top: 100px;
-
-		@include min(ti) {
-			left: unset;
-			transform: unset;
-			margin-top: vw(30);
-		}
 
 		svg {
 			width: 180px;

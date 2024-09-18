@@ -7,10 +7,10 @@ import TWEEN from './tween.module.js';
 
 const w1600 = window.matchMedia("(min-width: 1600px)");
 const w1300 = window.matchMedia("(min-width: 1300px)");
-const w768 = window.matchMedia("(min-width: 768px)");
+const w992 = window.matchMedia("(min-width: 992px)");
 const w576 = window.matchMedia("(min-width: 576px)");
 const ANGLES_NUM = 4; // Количество углов у плоской фигуры
-const FIGURE_HEIGHT = w768.matches ? 5 : w576.matches ? 13 : 16; // Высота объемной фигуры
+const FIGURE_HEIGHT = 7; // Высота объемной фигуры
 const SQUARE = [
 	{x: 5, y: 5},
 	{x: 5, y: -5},
@@ -37,14 +37,16 @@ const parent = document.querySelector(".canvas__window");
 const tabs = document.querySelectorAll(".graphic__tab");
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
-if (w1600.matches) {
-	camera.position.set(-0.01993214386260716, -11.40833628815598, 1.0599760086136567);
-} else if (w1300.matches) {
-	camera.position.set(-0.19058996153741642, -11.157212056000972, 2.783018838956491);
+
+if (w992.matches) {
+	camera.position.set(-0.413422663294703, 13.276260782528949, -3.6868148131093474);
+} else if (w576.matches) {
+	camera.position.set(-0.4134438188965497, 16.270574822474963, -3.68679680730062);
 } else {
-	camera.position.set(-0.1905899615374156, -18.100924888631944, 5.980013927091829);
+	camera.position.set(-0.4134476404779572, 20.09285069234671, -3.6867969996230308);
 }
-camera.aspect = parent.offsetWidth / parent.offsetWidth;
+
+//camera.aspect = parent.innerWidth / parent.innerHeight;
 
 /*camera.lookAt(new THREE.Vector3(-0.1054263625772272, -26.472392884690667, 8.203219385364957));
 new TWEEN.Tween(camera.position).to({
@@ -52,22 +54,28 @@ new TWEEN.Tween(camera.position).to({
 	y: -11.40833628815598,
 	z: 1.0599760086136567
 }, 1000).start();*/
+const group = new THREE.Group();
 
 const renderer = new THREE.WebGLRenderer({
 	antialias: true
 });
-if (w576.matches) {
-	renderer.setSize(parent.offsetWidth, parent.offsetWidth);
-} else {
-	renderer.setSize(parent.offsetWidth, parent.offsetHeight);
-}
+renderer.setSize(parent.offsetWidth, parent.offsetWidth);
 
 renderer.setClearColor(0x403f4d, 0);
 parent.appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
-controls.target.set(0.01800548093765126, -4.723737777035119, -2.1098019150692564);
+controls.target.set(-0.4134228245835257, -4.7237392174620485, -3.6867968138319753);
+
+controls.minDistance = w992.matches ? 7 : 16;
+controls.maxDistance = w992.matches ? 18 : 30;
 controls.update();
+
+controls.minPolarAngle = 0;
+controls.maxPolarAngle = 0;
+
+//controls.minAzimuthAngle = 0;
+//controls.maxAzimuthAngle = 0;
 
 controls.addEventListener("change", () => {
 	console.log("controls.target")
@@ -75,8 +83,10 @@ controls.addEventListener("change", () => {
 	console.log("camera.position")
 	console.log(camera.position)
 
-	//controls.target.x = 0;
-	//camera.position.x = 0;
+	//controls.target.x = 0.01800548093765126;
+	//camera.position.x = -0.01993214386260716;
+	//controls.target.z = -2.1098019150692564;
+	//camera.position.z = 1.0599760086136567;
 })
 
 /* Материал каркасных линий */
@@ -91,11 +101,6 @@ const materialLine2 = new LineMaterial({
 	linewidth: 1
 });
 
-/*const grid = new THREE.GridHelper(50, 50, "#000000", "#000000");
-grid.rotateX(90);
-grid.position.y = 40;
-scene.add(grid);*/
-
 /* Верхний квадрат */
 const polygonCoords1 = [];
 for (let i = 0; i <= ANGLES_NUM; i++) {
@@ -108,7 +113,6 @@ for (let i = 0; i <= ANGLES_NUM; i++) {
 const geometry1 = new LineGeometry();
 geometry1.setPositions(polygonCoords1);
 const polygon1 = new Line2(geometry1, materialLine);
-scene.add(polygon1);
 
 /* Нижний квадрат */
 const polygonCoords2 = [];
@@ -122,7 +126,6 @@ for (let i = 0; i <= ANGLES_NUM; i++) {
 const geometry2 = new LineGeometry();
 geometry2.setPositions(polygonCoords2);
 const polygon2 = new Line2(geometry2, materialLine);
-scene.add(polygon2);
 
 /* Ребра между квадратами */
 for (let linesCount = 0; linesCount < ANGLES_NUM; linesCount++) {
@@ -140,7 +143,7 @@ for (let linesCount = 0; linesCount < ANGLES_NUM; linesCount++) {
 	const geometryEdges = new LineGeometry();
 	geometryEdges.setPositions(linesCoords);
 	const edges = new Line2(geometryEdges, materialLine);
-	scene.add(edges);
+	group.add(edges);
 }
 
 /* Сплошные проходящие через центр плоскостей */
@@ -191,7 +194,7 @@ for (let linesCount = 0; linesCount < ANGLES_NUM * 2; linesCount++) {
 	const geometryCenter = new LineGeometry();
 	geometryCenter.setPositions(centerCoords);
 	const center = new Line2(geometryCenter, materialLine2);
-	scene.add(center);
+	group.add(center);
 }
 
 /* Сферы атомы */
@@ -221,16 +224,55 @@ for (let i = 0; i < ANGLES_NUM * 2 + 2; i++) {
 	} else { // Атомы для центра нижней плоскости
 		sphere.position.set(0, 0, -FIGURE_HEIGHT);
 	}
-	scene.add(sphere);
+	group.add(sphere);
 }
 
-const animate = () => {
-	requestAnimationFrame(animate);
+const render = () => {
+	requestAnimationFrame(render);
 	renderer.render(scene, camera);
+
+	parent.addEventListener("mouseenter", () => {
+		/*renderer.setAnimationLoop(null);
+	
+		if (w1600.matches) {
+			camera.position.set(-0.01993214386260716, -11.40833628815598, 1.0599760086136567);
+		} else if (w1300.matches) {
+			camera.position.set(-0.19058996153741642, -11.157212056000972, 2.783018838956491);
+		} else {
+			camera.position.set(-0.1905899615374156, -18.100924888631944, 5.980013927091829);
+		}*/
+	});
+	controls.update();
 	TWEEN.update();
 }
 
-animate();
+render();
+
+group.add(polygon1);
+group.add(polygon2);
+scene.add(group);
+
+/* Анимация скрытия оверлея при наведении на решетку */
+renderer.setAnimationLoop(animation);
+
+const offset = new THREE.Vector3();
+const distance = 20;
+
+function animation(time) {
+  offset.x = distance * Math.sin(time * 0.001);
+  offset.y = distance * Math.cos(time * 0.001);
+  offset.z = distance * Math.cos(time * 0.001);
+
+  camera.position.copy(group.position).add(offset);
+  camera.lookAt(group.position);
+
+  renderer.render(scene, camera);
+}
+
+parent.addEventListener("mouseenter", () => {
+	renderer.setAnimationLoop(null);
+	parent.classList.remove("canvas__window--overlay");
+});
 
 /* Функции для плавности переключения табов */
 const fadeIn = (el, timeout, display) => {
@@ -260,7 +302,7 @@ const animationHoverHandler = (e) => {
 		(((e.clientX - renderer.domElement.getBoundingClientRect().left) / renderer.domElement.clientWidth) * 2) - 1,
 		-(((e.clientY - renderer.domElement.getBoundingClientRect().top) / renderer.domElement.clientHeight) * 2) + 1,
 	);
-	const triggeredElems = scene.children.filter((el) => {
+	const triggeredElems = group.children.filter((el) => {
 		return el.isMesh
 	});
 
@@ -291,6 +333,10 @@ const animationHoverHandler = (e) => {
 				selectedObject.material.copy(selectedObject.material);
 			})
 			.start()
+
+		document.body.style.cursor = "pointer";
+	} else {
+		document.body.style.cursor = "default";
 	}
 }
 
@@ -299,7 +345,7 @@ const animationClickHandler = (e) => {
 		(((e.clientX - renderer.domElement.getBoundingClientRect().left) / renderer.domElement.clientWidth) * 2) - 1,
 		-(((e.clientY - renderer.domElement.getBoundingClientRect().top) / renderer.domElement.clientHeight) * 2) + 1,
 	);
-	const triggeredElems = scene.children.filter((el) => {
+	const triggeredElems = group.children.filter((el) => {
 		return Object.keys(el.userData).length !== 0;
 	});
 
@@ -356,14 +402,12 @@ const animationClickHandler = (e) => {
 					el.style.transform = "translateY(0)";
 				}, 300 * i);
 			});
-		}, 200);
+		}, 400);
 
 		/* Скроллим к табу */
-		if (!w768.matches) {
-			document.querySelector(`.graphic__tab[data-tab="${selectedObject.userData['data-tab']}"]`).scrollIntoView({
-				behavior: 'smooth'
-			});
-		}
+		document.querySelector(`.graphic__tab[data-tab="${selectedObject.userData['data-tab']}"]`).scrollIntoView({
+			behavior: 'smooth'
+		});
 	}
 }
 

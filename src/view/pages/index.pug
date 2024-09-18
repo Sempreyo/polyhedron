@@ -11,12 +11,20 @@ block main
 		.graphic__wrapper
 			.graphic__left
 				.canvas
-					.canvas__window
-					.canvas__note
-						+icon("cursor")(width="20", height="20")
-						span Вращайте решетку и кликайте на атомы для выбора темы
-					.canvas__image
-						+icon("projector")
+					.canvas__wrapper
+						.canvas__window.canvas__window--overlay
+						.canvas__note
+							.canvas__note-item.canvas__note-item--1
+								+icon("cursor")(width="20", height="20")
+								span Вращайте решетку
+							.canvas__note-item.canvas__note-item--2
+								+icon("cursor-click")(width="20", height="20")
+								span Кликайте на атомы для перехода к слайду
+							.canvas__note-item.canvas__note-item--3
+								+icon("cursor-scroll")(width="20", height="20")
+								span Приближайте и отдаляйте решетку
+						//.canvas__image
+							+icon("projector")
 			.graphic__right
 				.graphic__tabs
 					.graphic__tab.desc.desc--4.anim-opacity(data-tab="tab-1", style="display: block")
